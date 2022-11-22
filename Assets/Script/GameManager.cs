@@ -17,6 +17,7 @@ public class GameManager: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< HEAD
     
         Start_button = GetComponent<Button>();
         Start_button.onClick.AddListener(Startclick);
@@ -24,6 +25,9 @@ public class GameManager: MonoBehaviour
         Exit_button = GetComponent<Button>();
         Menu_Button = GetComponent<Button>();
         Menu_Button.onClick.AddListener(Menuclick);
+=======
+       Startbutton = GameObject.Find("Start_bitton").GetComponent<Button>();
+>>>>>>> upstream/main
 
     }
     public void Startclick()
@@ -56,5 +60,10 @@ public class GameManager: MonoBehaviour
     void Update()
     {
      
+    }
+
+    public void GameStart()
+    {
+        SceneManager.LoadScene("GameScene");
     }
 }
