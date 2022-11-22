@@ -2,17 +2,17 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-animation_201931745/[Ll]ibrary/
-animation_201931745/[Tt]emp/
-animation_201931745/[Oo]bj/
-animation_201931745/[Bb]uild/
-animation_201931745/[Bb]uilds/
-animation_201931745/[Ll]ogs/
-animation_201931745/[Uu]ser[Ss]ettings/
+Lost_Memory/[Ll]ibrary/
+Lost_Memory/[Tt]emp/
+Lost_Memory/[Oo]bj/
+Lost_Memory/[Bb]uild/
+Lost_Memory/[Bb]uilds/
+Lost_Memory/[Ll]ogs/
+Lost_Memory/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
-animation_201931745/[Mm]emoryCaptures/
+Lost_Memory/[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
@@ -65,8 +65,8 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Packed Addressables
-animation_201931745/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+Lost_Memory/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-animation_201931745/[Aa]ssets/[Ss]treamingAssets/aa.meta
-animation_201931745/[Aa]ssets/[Ss]treamingAssets/aa/*
+Lost_Memory/[Aa]ssets/[Ss]treamingAssets/aa.meta
+Lost_Memory/[Aa]ssets/[Ss]treamingAssets/aa/*
